@@ -8,7 +8,7 @@ class Student:
     def __init__(self, name, roll_number, marks):
         self.name = name
         self.roll_number = roll_number
-        self.marks = marks  # dict: {subject_name: score}
+        self.marks = marks 
 
     def total_marks(self):
         return sum(self.marks.values())
